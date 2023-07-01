@@ -11,12 +11,12 @@ if [ ! -d $DIR_TOOLCHAIN ]; then
     git clone https://github.com/riscv/riscv-gnu-toolchain.git $DIR_TOOLCHAIN
 
 	cd $DIR_TOOLCHAIN
-	git submodule update --init --recursive riscv-binutils
-	git submodule update --init --recursive riscv-dejagnu
-	git submodule update --init --recursive riscv-gcc
-	git submodule update --init --recursive riscv-gdb
-	git submodule update --init --recursive riscv-glibc
-	git submodule update --init --recursive riscv-newlib
+	git submodule update --init --recursive binutils
+	git submodule update --init --recursive dejagnu
+	git submodule update --init --recursive gcc
+	git submodule update --init --recursive gdb
+	git submodule update --init --recursive glibc
+	git submodule update --init --recursive newlib
 
     # ------ GCC ----------------------------------------------------------------
     cd $DIR_GCC
