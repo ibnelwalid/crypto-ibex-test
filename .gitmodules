@@ -1,3 +1,4 @@
 [submodule "src/hw/ibex"]
 	path = src/hw/ibex
 	url = https://github.com/ibnelwalid/ibex-crypto.git
+	branch = zk_ext
